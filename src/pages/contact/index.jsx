@@ -19,12 +19,12 @@ export const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormdata({ loading: true });
+    setFormdata((prev) => ({ ...prev, loading: true }));
 
     const templateParams = {
       from_name: formData.email,
       user_name: formData.name,
-      to_name: contactConfig.YOUR_EMAIL,
+      to_name: "Bigyan Poudel",
       message: formData.message,
     };
 
@@ -43,6 +43,9 @@ export const ContactUs = () => {
             alertmessage: "SUCCESS! ,Thankyou for your messege",
             variant: "success",
             show: true,
+            email: "",
+            name: "",
+            message: "",
           });
         },
         (error) => {
@@ -51,6 +54,7 @@ export const ContactUs = () => {
             alertmessage: `Faild to send!,${error.text}`,
             variant: "danger",
             show: true,
+            loading: false,
           });
           document.getElementsByClassName("co_alert")[0].scrollIntoView();
         }

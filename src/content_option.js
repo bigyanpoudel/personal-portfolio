@@ -110,18 +110,14 @@ const skills = [
 const services = [
   {
     title: "Web development",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: `Web development services involve everything related to building a web-based solution – whether it is a simple text page or a complex web application.
+      I can build any kind of website based on requirement that you provide. Technology used: React, NextJs, NodeJs, Express
+      `,
   },
   {
     title: "Mobile Apps",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-  },
-  {
-    title: "Wordpress Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "I can build beautiful mobile application using Flutter and React Native",
   },
 ];
 
@@ -147,15 +143,15 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: "name@domain.com",
-  YOUR_FONE: "(555)123-4567",
+  YOUR_EMAIL: "bgyanpoudel10@gmail.com",
+  YOUR_FONE: "+977 9862991974s",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    "For any kind of queries, project and collaboration you can always reach out to me. Thank you",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_id",
-  YOUR_TEMPLATE_ID: "template_id",
-  YOUR_USER_ID: "user_id",
+  YOUR_SERVICE_ID: "service_2567ufv",
+  YOUR_TEMPLATE_ID: "template_ckht5s5",
+  YOUR_USER_ID: "wyeVxn1I6l0WrAUW4",
 };
 
 const socialprofils = {

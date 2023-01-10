@@ -15,7 +15,7 @@ export const Portfolio = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3">
-          <Col lg="8">
+          <Col>
             <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
@@ -31,7 +31,13 @@ export const Portfolio = () => {
                     <img src={data.img} alt="" />
                     <div className="content">
                       <p>{data.desctiption}</p>
-                      <a href={data.link} target="_blank" rel="noopener noreferrer">view project</a>
+                      <a
+                        href={data.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        view project
+                      </a>
                     </div>
                   </div>
                 );

@@ -47,6 +47,18 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
+                  <a
+                    href="https://docs.google.com/document/d/1y1oWjQvBU1gM6gnuB_mD6T2rM6InPKk4b6haTCSH-Zo/edit?usp=share_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div id="button_h" className="ac_btn btn">
+                      CV
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </a>
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
                       Contact Me
