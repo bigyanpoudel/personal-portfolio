@@ -127,77 +127,22 @@ const services = [
 
 const dataportfolio = [
   {
-    img: "https://picsum.photos/400/?grayscale",
+    img: "./poetree.png",
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "Poetree is a social media platform where you are given the opportunity to express yourself poetically",
+    link: "https://poetree.ca/",
   },
   {
-    img: "https://picsum.photos/400/800/?grayscale",
+    img: "./react-modal.webp",
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "React Global Modal is a lightweight, simple, customizable and ready to use modal in the global scope in the react project. It is a npm package that you can directly use by adding into your project",
+    link: "https://www.npmjs.com/package/react-global-modal",
   },
   {
-    img: "https://picsum.photos/400/?grayscale",
+    img: "./whitesonic.PNG",
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/600/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-
-  {
-    img: "https://picsum.photos/400/600/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/550/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "Generate image directly from the text. The frontend side is being done by me in NextJS",
+    link: "https://staging.photosonic.ai/",
   },
 ];
 
