@@ -8,11 +8,11 @@ const introdata = {
   title: "I’m Bigyan Poudel",
   animated: {
     first: "I love coding and working in new technology",
-    second: "I code cool websites",
+    second: "I develop cool websites",
     third: "I develop mobile apps",
   },
   description:
-    "I design and code beautifully simple things, and I love what I do.",
+    "I develop and code beautifully simple things, and I love what I do.",
   your_img_url: "./bigyan.jpg",
 };
 
@@ -144,7 +144,7 @@ const dataportfolio = [
 
 const contactConfig = {
   YOUR_EMAIL: "bgyanpoudel10@gmail.com",
-  YOUR_FONE: "+977 9862991974s",
+  YOUR_FONE: "+977 9862991974",
   description:
     "For any kind of queries, project and collaboration you can always reach out to me. Thank you",
   // creat an emailjs.com account
