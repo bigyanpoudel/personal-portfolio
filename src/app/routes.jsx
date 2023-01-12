@@ -20,10 +20,16 @@ const AnimatedSwitch = withRouter(({ location }) => (
       unmountOnExit
     >
       <Switch location={location}>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={ContactUs} />
+        <Route exact path="https://bigyanpoudel.com.np/" component={Home} />
+        <Route path="https://bigyanpoudel.com.np/about" component={About} />
+        <Route
+          path="https://bigyanpoudel.com.np/portfolio"
+          component={Portfolio}
+        />
+        <Route
+          path="https://bigyanpoudel.com.np/contact"
+          component={ContactUs}
+        />
         <Route path="*" component={Home} />
       </Switch>
     </CSSTransition>
